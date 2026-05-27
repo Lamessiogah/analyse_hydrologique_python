@@ -80,6 +80,11 @@ Le programme :
 - détecte les jours de vigilance ;
 - génère automatiquement un graphique :
   - `graphique_crue.png`
+## Capture d’écran
+
+### Graphique généré
+
+![Graphique des débits](graphique_crue.png)
 
 ---
 
