@@ -81,6 +81,23 @@ Le programme :
 - génère automatiquement un graphique :
   - `graphique_crue.png`
 ## Capture d’écran
+### Exemple de sortie terminal
+
+```bash
+Analyse démarrée
+
+Débit moyen : 37.2
+Débit maximum : 75
+
+Jours en vigilance :
+   jour  debit
+6     7     60
+7     8     75
+8     9     55
+
+Graphique enregistré : graphique_crue.png
+```
+
 
 ### Graphique généré
 
