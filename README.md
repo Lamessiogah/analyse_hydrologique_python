@@ -38,15 +38,34 @@ Le script détecte les jours où le débit dépasse un seuil critique fixé à 5
 
 ---
 
-## Exécution du projet
 
-Installation des dépendances :
+# Installation et exécution
+
+## 1. Cloner le projet
+
+```bash
+git clone https://github.com/Lamessiogah/analyse_hydrologique_python.git
+```
+
+## 2. Entrer dans le dossier
+
+```bash
+cd analyse_hydrologique_python
+```
+
+## 3. Installer les dépendances
 
 ```bash
 pip install pandas matplotlib
 ```
 
-Lancement du script :
+ou :
+
+```bash
+pip3 install pandas matplotlib
+```
+
+## 4. Exécuter le programme
 
 ```bash
 python3 analyse_crue.py
@@ -54,5 +73,15 @@ python3 analyse_crue.py
 
 ---
 
+## Résultat attendu
+
+Le programme :
+- affiche les statistiques hydrologiques ;
+- détecte les jours de vigilance ;
+- génère automatiquement un graphique :
+  - `graphique_crue.png`
+
+---
+
 ## Auteur
-OGAH Lamessi Jérôme
+Lamessi Jérôme OGAH
