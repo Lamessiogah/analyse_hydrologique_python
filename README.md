@@ -1,6 +1,6 @@
-# Analyse hydrologique avec Python
+# Analyse hydrologique avec Python et QGIS
 
-## Description
+## I-Description de la partie python
 Mini projet réalisé avec Python pour analyser des données hydrologiques simples dans le cadre d’un apprentissage en modélisation et prévision des crues.
 
 Le projet permet :
@@ -104,6 +104,57 @@ Graphique enregistré : graphique_crue.png
 ![Graphique des débits](graphique_crue.png)
 
 ---
+# II- Partie QGIS — Cartographie des stations hydrologiques
 
+## Description
+Une partie SIG (Système d’Information Géographique) a également été réalisée avec QGIS afin de spatialiser des stations hydrologiques réelles et représenter les niveaux de vigilance crue.
+
+Cette carte permet :
+- d’afficher des stations hydrologiques ;
+- de visualiser les niveaux de vigilance ;
+- de représenter spatialement les risques de crue ;
+- de produire une carte thématique hydrologique.
+
+---
+
+## Technologies SIG utilisées
+- QGIS
+- OpenStreetMap
+- Données CSV géolocalisées
+
+---
+
+## Fonctionnalités QGIS
+- Importation de données géographiques réelles ;
+- Cartographie de stations hydrologiques ;
+- Classification des niveaux de vigilance ;
+- Symbologie par niveau de risque ;
+- Export d’une carte thématique.
+
+---
+
+## Fichiers SIG du projet
+- `stations_reelles.csv` : stations hydrologiques géolocalisées
+- `carte_vigilance_reelle.png` : carte SIG exportée depuis QGIS
+
+---
+
+## Exemple de stations utilisées
+
+| Station | Débit | Vigilance |
+|---|---|---|
+| Paris Austerlitz | 120 | forte |
+| Melun | 65 | moyenne |
+| Montereau | 40 | faible |
+| Metz | 85 | forte |
+| Nancy | 55 | moyenne |
+
+---
+
+## Carte SIG générée
+
+![Carte QGIS](carte_vigilance_reelle.png)
+
+---
 ## Auteur
 Lamessi Jérôme OGAH
